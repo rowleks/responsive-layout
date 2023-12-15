@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Responsive Nav Bar</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+          <span class="bar top"></span>
+          <span class="bar middle"></span>
+          <span class="bar bottom"></span>
+        </div>
+  
+        <div class=" logo typewriter">
+          <h1>LOGO</h1>
+        </div>
+  
+        <ul>
+            <li>
+              <a href="#" onclick="scrollToSection('home')">Home</a>
+            </li>
+            <li><a href="#" onclick="scrollToSection('about')">About</a></li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#" onclick="scrollToSection('contact')">Contact</a>
+            </li>
+        </ul>
+    </nav>
+  
+  </header>
+
+
+  <div class="container">
+    
+    <aside class="aside" id="about">
+      <div class="typewriter">
+        <h1>Sidebar</h1>
+      </div>
+
+    </aside>
+    <main class="main-contents" > <div class="typewriter">
+      <h1>Main Contents</h1>
+    </div>
+
+    </main>
+
+  </div>
+
+    <footer id="contact">
+      <div class="typewriter">
+        <h1>Footer</h1>
+      </div>
+  
+    </footer>
+  
+  <script src="./script.js">
+
+  </script>
+</body>
+</html>
