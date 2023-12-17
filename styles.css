@@ -13,7 +13,7 @@ body, html {
 
   nav {
     background-color: #333;
-    color: #fff;
+    color: #FFF;
     padding: 10px;
     text-align: center;
     display: flex;
@@ -36,7 +36,7 @@ body, html {
 
   nav a {
     text-decoration: none;
-    color: #fff;
+    color: #FFF;
     font-weight: bold;
     font-size: 1.3rem;
     transition: color 0.3s;
@@ -44,7 +44,7 @@ body, html {
   }
 
   nav a:hover {
-    color: #ffcc00; 
+    color: #FFCC00; 
   }
 
   /* Hide Hamburger menu for large screens */
@@ -69,19 +69,19 @@ body, html {
   }
 
   h1 {
-    color: #fff;
+    color: #FFF;
     text-align: center;
     margin: 0;
   }
 
 aside {
-  background-color: #ffcc00;
+  background-color: #FFCC00;
   margin: 10px 5px;
   
 }
 
 footer {
-  background-color: burlywood;
+  background-color: #DEB887;
   height: 30vh;
   margin: 0 5px;
   display: flex;
@@ -90,7 +90,7 @@ footer {
 }
 
 main {
-  background-color:lightblue;
+  background-color: #ADD8E6;
   margin: 10px 5px;
 }
   .aside {
@@ -118,7 +118,7 @@ main {
 
   .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
+    border-right: .15em solid #FFF; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
