@@ -5,6 +5,10 @@ body, html {
     height: 100%;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   nav .logo {
     margin-left: 1rem;
     font-size: 1.5rem;
@@ -76,14 +80,14 @@ body, html {
 
 aside {
   background-color: #FFCC00;
-  margin: 10px 5px;
+  margin: 10px 3px;
   
 }
 
 footer {
   background-color: #DEB887;
   height: 30vh;
-  margin: 0 5px;
+  margin: 0 3px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +95,7 @@ footer {
 
 main {
   background-color: #ADD8E6;
-  margin: 10px 5px;
+  margin: 10px 3px;
 }
   .aside {
   grid-column: 1 / 4;
@@ -165,7 +169,7 @@ main {
         height: 3px;
         background-color: #fff;
         margin: 4px 0;
-        transition: transform 0.5s ease, opacity 0.5s;
+        transition: transform 1.2s ease, opacity 0.3s;
       }
     
 
@@ -186,7 +190,7 @@ main {
       display: flex;
       flex-direction: column;
       cursor: pointer;
-      transition: transform 1s ease;
+      transition: transform 1.2s ease;
     }
     
     /* for creating smooth transition effect of nav links */
@@ -197,7 +201,7 @@ main {
       position: absolute;
       top: -150px;
       left: 0;
-      transition: all .5s  ease-in-out;
+      transition: all .7s  ease-in-out;
     }
 
     nav ul.show {
@@ -205,10 +209,10 @@ main {
       flex-direction: column;
       width: 100%;
       position: absolute;
-      top: 80px;
+      top: 85px;
       left: 0;
       background-color: #333;
-      transition: all .5s  ease-in-out;
+      transition: all .7s  ease-in-out;
     }
 
 
@@ -236,11 +240,12 @@ main {
       }
 
       .aside {
-        grid-column: 1 / 5; 
+        /* grid-column: 1 / 5; */
+        display: none; 
       }
 
       .main-contents {
-        grid-column: 5 / -1; }
+        grid-column: 1 / -1; }
 
   }
 

@@ -16,11 +16,11 @@
 const menu = document.querySelector('nav ul');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 
-function scrollToSection(sectionId) {
-const section = document.getElementById(sectionId);
-  section.scrollIntoView({ behavior: 'smooth' });
-  closeMenu();
-}
+// function scrollToSection(sectionId) {
+// const section = document.getElementById(sectionId);
+//   section.scrollIntoView({ behavior: 'smooth' });
+//   closeMenu();
+// }
 
 function toggleMenu() {
   menu.classList.toggle('show');
